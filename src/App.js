@@ -30,7 +30,7 @@ function App() {
   return (
     <AuthProvider>
       <Header />
-      <div>{routesElement}</div>
+      <div className="w-full h-screen flex flex-col">{routesElement}</div>
     </AuthProvider>
   );
 }
